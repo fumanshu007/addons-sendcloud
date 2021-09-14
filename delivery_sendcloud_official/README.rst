@@ -92,27 +92,6 @@ When you validate the delivery in Odoo the label is created and the pick-up assi
 .. image:: /delivery_sendcloud_official/static/description/Image_50.png
 
 
-API Integration
-~~~~~~~~~~~~~~~
-
-Go to SendCloud > Configuration > Wizards > Setup the SendCloud Integration. Click on Setup Integration. A wizard will pop up.
-
-Select API Integration.
-
-.. image:: /delivery_sendcloud_official/static/description/Image_60.png
-
-Enter the public and secret keys provided by SendCloud.
-Here is how to create api key in SendCloud:
-https://github.com/SendCloud/api-integration-example
-
-Confirm. An API integration is now present in the Integration list view.
-Open the API Integration form.
-Edit the API Integration. The changes you make will be in sync, SendCloud side, with the integration configuration.
-
-Please note that when using the Api integration a label is created in Sendcloud as soon as you validate the delivery. There is no "incoming order"
-created in the Sendcloud portal but directly a label.
-
-
 SendCloud panel settings
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
