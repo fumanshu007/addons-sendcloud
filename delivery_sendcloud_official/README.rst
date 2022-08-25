@@ -64,7 +64,7 @@ to authorize OdooShop to access your Sendcloud account. Click on Connect in the 
 
 .. image:: /delivery_sendcloud_official/static/description/Image_20.png
 
-Go back to the Odoo Integration configuration. An integration "OdooShop" is now present
+#Go back to the Odoo Integration configuration!# An integration "OdooShop" is now present
 in the Integration list view. Open the OdooShop Integration form. Edit the OdooShop Integration.
 The changes you make will be in sync, Sendcloud side, with the integration configuration.
 
@@ -235,6 +235,11 @@ Cancel parcels
 ~~~~~~~~~~~~~~
 
 When canceling parcels a confirmation popup will ask for confirmation.
+
+
+Delivery outside EU
+~~~~~~~~~~~~~~~~~~~
+Install OCA module 'Product_harmonixed_system' for using delivery outside EU. Country of origin field is available after installing.
 
 
 Troubleshooting
